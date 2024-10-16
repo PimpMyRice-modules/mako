@@ -1,0 +1,15 @@
+markup=1
+actions=1
+
+# Format
+font={{font.normal}} {{font.size}}
+border-color={{border.inactive}}
+border-size={{border.width}}
+border-radius={{border.radius}}
+margin={{gaps.inner}},{{gaps.inner}},{{gaps.inner}},{{gaps.inner}}
+padding={{padding.v}},{{padding.h}},{{padding.v}},{{padding.h}},
+outer-margin={{gaps.outer}},{{gaps.outer}},{{gaps.outer}},{{gaps.outer}}
+background-color={{dialog.bg}}
+text-color={{dialog.fg}}
+width=300
+height=200
