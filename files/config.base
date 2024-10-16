@@ -11,5 +11,5 @@ padding={{padding.v}},{{padding.h}},{{padding.v}},{{padding.h}},
 outer-margin={{gaps.outer}},{{gaps.outer}},{{gaps.outer}},{{gaps.outer}}
 background-color={{dialog.bg}}
 text-color={{dialog.fg}}
-width=300
-height=200
+width={{35 * font.size}}
+height={{25 * font.size}}
