@@ -5,5 +5,5 @@
 ## Set up
 
 ```bash
-rice clone module pimp://mako
+pimp clone module pimp://mako
 ```
