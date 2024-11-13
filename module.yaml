@@ -1,5 +1,3 @@
 run:
-  # - if:
-  #   running: Hyprland
   - file: "{{config_dir}}/mako/config"
   - shell: "makoctl reload"
