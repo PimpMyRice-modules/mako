@@ -1,3 +1,4 @@
+os: linux
 run:
   - file: "{{config_dir}}/mako/config"
   - shell: "makoctl reload"
