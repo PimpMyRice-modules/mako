@@ -1,4 +1,10 @@
-os: linux
+# yaml-language-server: $schema=../../.json_schemas/module.json
+
+os:
+  - linux
+
 run:
-  - file: "{{config_dir}}/mako/config"
-  - shell: "makoctl reload"
+  - action: file
+    target: "{{config_dir}}/mako/config"
+  - action: shell
+    command: makoctl reload
